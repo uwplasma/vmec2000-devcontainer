@@ -1,0 +1,20 @@
+{
+    "name": "VMEC2000 - Python Development Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python3"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "usernamehw.errorlens",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "root"
+  }
