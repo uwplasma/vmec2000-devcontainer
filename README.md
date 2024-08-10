@@ -7,7 +7,7 @@ Contains a dev-container directory with VMEC2000, streamlining its complex insta
   - [All those hours trying to install VMEC in your machine are over 🎉](#all-those-hours-trying-to-install-vmec-in-your-machine-are-over-)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
-  - [Installation](#installation)
+  - [Installation and Usage](#installation-and-usage)
   - [Details About the Container](#details-about-the-container)
   - [Contributing](#contributing)
 
@@ -21,7 +21,7 @@ way to have and use VMEC in your project. All those hours trying to install VMEC
 From now on, you just need to have Docker installed on your machine and you are good to go.
 
 
-## Installation
+## Installation and Usage
 1. Install Docker Desktop on Docker Website: [Docker Desktop](https://www.docker.com/products/docker-desktop). Docker Desktop needs to be running on your machine. On Mac, you can find the Docker icon in the top menu bar.
 2. Copy the `.dev-container` directory to your project, that contains:
    
